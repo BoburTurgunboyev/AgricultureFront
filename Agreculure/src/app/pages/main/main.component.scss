@@ -1,0 +1,52 @@
+.choose{
+    background-color: rgb(235, 231, 231);
+    height: 400px;
+}
+.choose_text{
+
+    padding: 0;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+
+}
+
+.choose img{
+    width: 100%;
+    height: 450px;
+}
+.choose_text1{
+    color: #68A47F;
+    font-family: Yellowtail;
+    font-style: oblique 40deg;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 300px;
+    margin-top: -300px;
+}
+
+.choose_text2{
+    margin-top: -10px;
+    color: #30235f;
+    margin-left: 300px;    
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container button {
+    margin-right: 10px; /* agar rasm va matn orasiga bosqich qo'yishni istasangiz */
+    margin-left: 300px;
+    background-color: rgb(243, 243, 25);
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+.button-container img {
+    max-width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
