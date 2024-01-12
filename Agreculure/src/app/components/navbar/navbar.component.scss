@@ -1,0 +1,63 @@
+/* navbar.component.css */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:white; /* Add your preferred background color */
+    color:black; /* Text color */
+  }
+  
+  .logo-text-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text-container img {
+    width: 40px; /* Set the desired width */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .nav-items a {
+    margin: 0 10px; /* Adjust the margin as needed */
+    color:black(236, 225, 225); /* Text color */
+    text-decoration: none;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    
+    
+  }
+
+  .search_btn{
+    width: 60px;
+    height: 27px;
+    border-radius: 15px;
+  }
+
+
+  
+  .search-container input {
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+  }
+  
+  .song-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .song-container img {
+    width: 30px; /* Set the desired width */
+    margin-right: 5px; /* Adjust the margin as needed */
+    margin-left: -90px;
+  }
+  .ng{
+    font-size: 17px;
+  }
+  
