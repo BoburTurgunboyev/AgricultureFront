@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .horizontal {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    margin-right: 10px;
+    margin-left: 110px;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .horizontal > .vertical {
+    margin-right: 10px;
+
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  .horizontal1{
+    display: flex;
+    align-items: center;
+    margin-top: -150px;
+    margin-left: 620px;
+    
+
+  }
+  .button1 img {
+    max-width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    
+  }
+  .button1{
+   
+    background-color: #30235f;
+    color: beige;
+  }
+  .emount{
+    border: 1px solid rgb(8, 8, 8);
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    height: 25px;
+  }
+ 
+
+
+
+  
