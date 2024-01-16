@@ -1,0 +1,38 @@
+.container {
+   
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    margin-top: 100px;
+    
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .horizontal {
+    display: flex;
+    
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  button {
+    margin-right: 20px;
+    width: 190px;
+    height: 40px;
+    border-radius: 15px;
+
+  }
+  .button1{
+    background-color: rgb(36, 59, 59);
+    color:white;
+  }
