@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    text-align: center;
+    background-color: rgb(223, 223, 224);
+    height: 350px;
+    margin-top: 30px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .editor, .button {
+    margin-right: 10px;
+  }
+  .container img{
+    width: 55%;
+    border-radius: 25px;
+    margin: 90px;
+
+  }
+  .caption{
+    position: absolute;
+    top: 42%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  aliceblue;
+  }
+  .button{
+    height: 35px;
+    width: 100px;
+  }
+  .editor{
+    height: 30px;
+    width: 230px;
+  }
