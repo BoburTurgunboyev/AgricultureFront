@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -150px;
+    
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  .bet{
+    color: rgb(64, 150, 110);
+    font-style: italic;
+    margin-top: 100px;
+  
+  }
+  .for{
+    margin-top: -10px;
+  }
+  
