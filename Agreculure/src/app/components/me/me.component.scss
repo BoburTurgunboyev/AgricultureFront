@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    margin-top: -150px;
+  }
+  
+  .first-div,
+  .second-div,
+  .third-div {
+    flex-grow: 1;
+  }
+  
+  .first-div img,
+  .second-div img,
+  .third-div img {
+    width:400px;
+    height:400px;
+    margin-left: 25px;
+    border-radius: 15px;
+  }
+ 

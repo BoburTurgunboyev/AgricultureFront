@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 300px;
+    margin-bottom: 270px;
+  }
+  
+  .image-container {
+    position: relative;
+    text-align: center;
+    
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 800px;
+   
+    
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  .icon {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 600px;
+  }
+  .organic{
+    color: rgb(64, 150, 110);
+    font-style: italic;
+    
+  }

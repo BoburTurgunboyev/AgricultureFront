@@ -20,6 +20,23 @@ import { ServicefirstComponent } from './components/servicefirst/servicefirst.co
 import { BetterComponent } from './components/better/better.component';
 import { DairyComponent } from './components/dairy/dairy.component';
 import { ButtonComponent } from './components/button/button.component';
+import { VideoComponent } from './components/video/video.component';
+import { ServicesinglefirstComponent } from './components/servicesinglefirst/servicesinglefirst.component';
+import { StoreComponent } from './components/store/store.component';
+import { WhyComponent } from './components/why/why.component';
+import { SpecilatyComponent } from './components/specilaty/specilaty.component';
+import { ServicesingleComponent } from './pages/servicesingle/servicesingle.component';
+import { LandComponent } from './components/land/land.component';
+import { BestComponent } from './components/best/best.component';
+import { AboutComponent } from './pages/about/about.component';
+import { AboutfirstComponent } from './components/aboutfirst/aboutfirst.component';
+import { CreativeComponent } from './components/creative/creative.component';
+import { TreyderComponent } from './components/treyder/treyder.component';
+import { ModernComponent } from './components/modern/modern.component';
+import { MeComponent } from './components/me/me.component';
+import { KasbComponent } from './components/kasb/kasb.component';
+import { NewsComponent } from './pages/news/news.component';
+import { NewsfirstComponent } from './components/newsfirst/newsfirst.component';
 
 
 
@@ -43,7 +60,24 @@ import { ButtonComponent } from './components/button/button.component';
     ServicefirstComponent,
     BetterComponent,
     DairyComponent,
-    ButtonComponent
+    ButtonComponent,
+    VideoComponent,
+    ServicesinglefirstComponent,
+    StoreComponent,
+    WhyComponent,
+    SpecilatyComponent,
+    ServicesingleComponent,
+    LandComponent,
+    BestComponent,
+    AboutComponent,
+    AboutfirstComponent,
+    CreativeComponent,
+    TreyderComponent,
+    ModernComponent,
+    MeComponent,
+    KasbComponent,
+    NewsComponent,
+    NewsfirstComponent
   ],
   imports: [
     BrowserModule,

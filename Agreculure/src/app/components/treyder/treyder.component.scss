@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+  }
+  
+  .first-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 230px;
+  }
+  
+  .first-div p {
+    margin: 0;
+  }
+  
+  .second-div {
+    margin-left: 20px;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+  .image{
+    height: 450px;
+    border-radius: 15px;
+  }
+  .it{
+    color: rgb(64, 150, 110);
+  }

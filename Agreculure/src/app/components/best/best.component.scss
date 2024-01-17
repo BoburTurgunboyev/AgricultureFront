@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+    margin-top: -130px;
+  }
+  
+  .centered-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .team{
+    color: rgba(126, 182, 147, 1);
+    font-style: italic;
+  }

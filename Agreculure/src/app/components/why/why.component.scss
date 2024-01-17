@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 70px;
+  }
+  
+  .first-div {
+    flex: 1;
+  }
+  
+  .second-div {
+    flex: 2;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+
+  .first-div img{
+    border-radius: 15px;
+  }

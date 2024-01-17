@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+  }
+  
+  .first-div {
+    margin-top: 100px;
+    
+  }
+  .first-div img{
+    height: 600px;
+  }
+  
+  .second-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    
+  }
+  .ab{
+    color:rgba(126, 182, 147, 1);
+    font-style: italic;
+  }

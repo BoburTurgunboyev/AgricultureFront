@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+ }
+ .container img{
+   width: 100%;
+ }
+ .caption {
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #f3eeee;
+   // padding: 10px;
+ }
