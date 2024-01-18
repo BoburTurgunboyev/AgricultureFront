@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    margin-top: 50px;
+    
+  }
+  
+  .container > div {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .container img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  .texts{
+    background-color:white ;
+   
+  }
