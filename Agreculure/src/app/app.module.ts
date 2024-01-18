@@ -37,6 +37,12 @@ import { MeComponent } from './components/me/me.component';
 import { KasbComponent } from './components/kasb/kasb.component';
 import { NewsComponent } from './pages/news/news.component';
 import { NewsfirstComponent } from './components/newsfirst/newsfirst.component';
+import { VitaminComponent } from './components/vitamin/vitamin.component';
+import { NewssingleComponent } from './pages/newssingle/newssingle.component';
+import { InformationimageComponent } from './components/informationimage/informationimage.component';
+import { InformationComponent } from './components/information/information.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { NotComponent } from './components/not/not.component';
 
 
 
@@ -77,7 +83,13 @@ import { NewsfirstComponent } from './components/newsfirst/newsfirst.component';
     MeComponent,
     KasbComponent,
     NewsComponent,
-    NewsfirstComponent
+    NewsfirstComponent,
+    VitaminComponent,
+    NewssingleComponent,
+    InformationimageComponent,
+    InformationComponent,
+    NotfoundComponent,
+    NotComponent
   ],
   imports: [
     BrowserModule,
