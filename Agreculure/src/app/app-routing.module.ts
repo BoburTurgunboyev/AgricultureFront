@@ -8,6 +8,8 @@ import { ServicesingleComponent } from './pages/servicesingle/servicesingle.comp
 import path from 'path';
 import { AboutComponent } from './pages/about/about.component';
 import { NewsComponent } from './pages/news/news.component';
+import { NewssingleComponent } from './pages/newssingle/newssingle.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 
 
 
@@ -18,9 +20,9 @@ const routes: Routes = [
   {path:'service',component:ServiceComponent},
   {path:'servicesingle',component:ServicesingleComponent},
   {path:'about',component:AboutComponent},
-  {path:'news',component:NewsComponent}
-
-  
+  {path:'news',component:NewsComponent},
+  {path:'newssingle',component:NewssingleComponent},
+  {path:'**',component:NotfoundComponent}
 ];
 
 @NgModule({
