@@ -43,6 +43,8 @@ import { InformationimageComponent } from './components/informationimage/informa
 import { InformationComponent } from './components/information/information.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
 import { NotComponent } from './components/not/not.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -89,11 +91,13 @@ import { NotComponent } from './components/not/not.component';
     InformationimageComponent,
     InformationComponent,
     NotfoundComponent,
-    NotComponent
+    NotComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
